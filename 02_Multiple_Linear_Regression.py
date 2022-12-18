@@ -8,7 +8,7 @@ from sklearn.metrics import r2_score
 df = pd.read_csv("data/FuelConsumption.csv")
 print(df.head())
 
-# Simple Linear Regression ile Multiple Linear Regression arasındaki fark, Simple'da bir tane bağımsız değişken varken Multiple'da birden fazla bağımsız değişkenimiz mevcut
+# The difference between Simple Linear Regression and Multiple Linear Regression is that Simple has one argument whereas Multiple has more than one argument
 
 cdf = df[["ENGINESIZE", "CYLINDERS", "FUELCONSUMPTION_COMB", "CO2EMISSIONS"]]
 
